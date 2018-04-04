@@ -1,5 +1,8 @@
-# require './listing_values.rb'
-# require './listing_template.rb'
+require './listing_values.rb'
+require './listing_template.rb'
+
+
+
 listing = nil
 fields = [
         :internal_id,
@@ -72,7 +75,7 @@ end
 def main
 	prompt
 	spawn_doc
-	# build_listing
+	build_listing
 	# save
 end
 
