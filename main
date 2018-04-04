@@ -1,0 +1,10 @@
+def prompt
+	puts "Listing Tool ready to work!"
+end
+
+def main
+	prompt
+	# spawn_doc
+	# build_listing
+	# save
+end
